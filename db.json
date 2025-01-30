@@ -1,9 +1,31 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    "moedas": [
+        {
+            "id": "1",
+            "guidEmpresa": "123e4567-e89b-12d3-a456-426614174000",
+            "sigla": "USD",
+            "nome": "Dólar Americano",
+            "simbolo": "$",
+            "codigo": 840
+        },
+        {
+            "guidEmpresa": "123e4567-e89b-12d3-a456-426614174001",
+            "sigla": "BRL",
+            "nome": "Real Brasileiro",
+            "simbolo": "R$,BRL",
+            "codigo": 500,
+            "id": "2"
+        },
+        {
+            "id": "3f1c",
+            "guidEmpresa": "111111111111111111111111111111111111",
+            "sigla": "ADC",
+            "nome": "wewe",
+            "simbolo": "ewewe",
+            "codigo": 222
+        }
+    ],
+    "profile": {
+        "name": "typecode"
+    }
 }
